@@ -94,10 +94,14 @@ a {
 }
 .mainindex {
     text-align: center;
+    width: 90%;
 }
 
 .imgindex {
-    width: 90%;
+    width: 100%;
+    padding: 0.5rem;
+    position: relative;
+    left: 100px;
 }
 
 ul {
