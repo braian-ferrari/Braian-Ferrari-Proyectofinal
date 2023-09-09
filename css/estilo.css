@@ -10,7 +10,7 @@
 }
 
 header {
-    width: 90%;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .menu {
-    width: 90%;
+    width: 90vw;
     display: flex;
     height: 140px;
     margin: 0 auto;
@@ -83,15 +83,17 @@ a {
     background-color: #52b69a;
     border-radius: 5px;
 }
-.menul{
+
+.menul {
     display: flex;
     align-items: center;
     padding: 1rem;
 }
 
-.menuli{
+.menuli {
     padding: 0.7rem;
 }
+
 .mainindex {
     text-align: center;
     width: 90%;
@@ -102,6 +104,13 @@ a {
     padding: 0.5rem;
     position: relative;
     left: 100px;
+}
+.sectionmain{
+    margin-left: 100px;
+    padding: 1rem;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
 }
 
 ul {
@@ -120,7 +129,7 @@ ul {
 footer {
     position: relative;
     top: 200px;
-    width: 90%;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -149,4 +158,22 @@ footer {
 
 .lifoot {
     margin: 20px;
+}
+
+.letraform {
+    font-family: 'Klee One', cursive;
+}
+
+.h2contacto {
+    text-align: center;
+}
+
+.maincontacto {
+    width: 90vw;
+    margin-left: 70px;
+}
+.botoncontacto:hover{
+    color: white;
+    background-color: #52b69a;
+    border-radius: 5px;
 }
