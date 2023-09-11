@@ -75,11 +75,12 @@ a {
 }
 
 .menu {
-    width: 90vw;
+    width: auto;
     display: flex;
     height: 140px;
     margin: 0 auto;
     justify-content: space-between;
+    height: auto;
 }
 
 a:hover {
@@ -105,7 +106,7 @@ a:hover {
     font-family: 'Klee One', cursive;
     margin-left: 100px;
     padding: 1rem;
-    width: 90vw;
+    width: auto;
     display: flex;
     justify-content: space-around;
 }
