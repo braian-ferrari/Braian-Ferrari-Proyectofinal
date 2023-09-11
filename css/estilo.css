@@ -6,7 +6,7 @@
 
 .logoresting {
     width: 200px;
-
+margin-left: 60px;
 }
 
 header {
@@ -125,37 +125,21 @@ ul {
 
 footer {
     width: 90vw;
-    position: relative;
-    top: 200px;
     margin: 0 auto;
 }
 
-.logosfoot {
-    width: 50px;
-    margin: 10px;
-    padding: 2px;
+.containerFoot {
+    width: 90vw;
+    gap: 20px;
+    justify-content: space-between;
+}
+.mapa{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: end;
 }
-
-.mapa {
-    width: 30vw;
-    margin-top: 2rem;
-    position: relative;
-    left: 1200px;
-    bottom: 34rem;
-}
-
-.listafoot {
-    position: relative;
-    bottom: 230px;
-
-}
-
-.lifoot {
-    margin: 20px;
+.Lifoot{
+    display: flex;
+    align-items: center;
 }
 
 .letraform {
@@ -186,7 +170,8 @@ footer {
 .h1servicios {
     text-align: center;
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:768px) {
     .sectionmain {
         margin-left: 100px;
         padding: 1rem;
