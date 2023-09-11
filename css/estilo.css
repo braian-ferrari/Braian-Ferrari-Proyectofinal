@@ -88,15 +88,6 @@ a {
     border-radius: 5px;
 }
 
-.menul {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-}
-
-.menuli {
-    padding: 0.7rem;
-}
 
 .mainindex {
     text-align: center;
@@ -193,4 +184,13 @@ footer {
 
 .h1servicios {
     text-align: center;
+}
+@media screen and (max-width:768px){
+    .sectionmain {
+        margin-left: 100px;
+        padding: 1rem;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
 }
