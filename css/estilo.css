@@ -14,6 +14,10 @@ header {
     margin: 0 auto;
 }
 
+body {
+    width: 90vw;
+}
+
 .tabla {
     font-family: 'Klee One', cursive;
     border: solid #52b69a;
@@ -34,19 +38,18 @@ header {
     font-size: xx-large;
 }
 
-.formulario {
-    position: relative;
-    left: 600px;
-}
-
-p {
+.pindex {
     font-family: 'Klee One', cursive;
     line-height: 1.5;
     font-size: x-large;
     padding: 5px;
     position: relative;
     left: 100px;
+}
 
+p {
+    font-family: 'Klee One', cursive;
+    font-size: large;
 }
 
 h1 {
@@ -56,12 +59,13 @@ h1 {
     font-size: xx-large;
     margin-top: 3rem;
     color: #081c15;
+    font-weight: bold;
 }
 
 h2 {
     font-family: 'Coming Soon', cursive;
-    position: relative;
-    left: 100px;
+
+    font-weight: bold;
 }
 
 a {
@@ -105,7 +109,8 @@ a {
     position: relative;
     left: 100px;
 }
-.sectionmain{
+
+.sectionmain {
     margin-left: 100px;
     padding: 1rem;
     width: 90vw;
@@ -127,9 +132,9 @@ ul {
 }
 
 footer {
+    width: 90vw;
     position: relative;
     top: 200px;
-    width: 90vw;
     margin: 0 auto;
 }
 
@@ -144,9 +149,10 @@ footer {
 }
 
 .mapa {
+    width: 30vw;
     margin-top: 2rem;
     position: relative;
-    left: 1000px;
+    left: 1200px;
     bottom: 34rem;
 }
 
@@ -172,8 +178,19 @@ footer {
     width: 90vw;
     margin-left: 70px;
 }
-.botoncontacto:hover{
+
+.botoncontacto {
+    background-color: #081c15;
+    color: white;
+    border: none;
+}
+
+.botoncontacto:hover {
     color: white;
     background-color: #52b69a;
     border-radius: 5px;
+}
+
+.h1servicios {
+    text-align: center;
 }
