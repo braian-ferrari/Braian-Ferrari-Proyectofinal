@@ -6,7 +6,7 @@
 
 .logoresting {
     width: 200px;
-margin-left: 60px;
+    margin-left: 60px;
 }
 
 header {
@@ -139,11 +139,13 @@ footer {
     gap: 20px;
     justify-content: space-between;
 }
-.mapa{
+
+.mapa {
     display: flex;
     justify-content: end;
 }
-.Lifoot{
+
+.Lifoot {
     display: flex;
     align-items: center;
 }
@@ -177,32 +179,32 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 740px){
+@media (min-width: 740px) {
     body {
         align-items: center;
         justify-content: center;
-}
-footer{
-    align-items: center;
+    }
+
+    footer {
+        align-items: center;
         justify-content: center;
+    }
 }
-}
-@media (min-width: 480px){
-header{
-    align-items: center;
+
+@media (min-width: 480px) {
+    header {
+        align-items: center;
         justify-content: center;
 
-}
+    }
 
     body {
         align-items: center;
         justify-content: center;
-}
-footer{
-    align-items: center;
+    }
+
+    footer {
+        align-items: center;
         justify-content: center;
+    }
 }
-}
-
-
-
