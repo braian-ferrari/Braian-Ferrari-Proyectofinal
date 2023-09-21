@@ -10,17 +10,23 @@
 }
 
 header {
-    width: 90vw;
+
+    width: 100vw;
     margin: 0 auto;
 }
 
 body {
+    width: 100vw;
     min-height: calc(100vh - 100px - 300px);
     display: flex;
     flex-direction: column;
     align-items: center;
 
 
+}
+main{
+    background-color:#52b69a;
+    width: 100vw;
 }
 
 .tabla {
@@ -49,12 +55,16 @@ body {
     font-size: x-large;
     padding: 5px;
     position: relative;
-    left: 100px;
+    
 }
 
 p {
     font-family: 'Klee One', cursive;
-    font-size: large;
+    font-size: x-large;
+    color: white;
+}
+.blanco{
+    color: white;
 }
 
 h1 {
@@ -68,6 +78,11 @@ h1 {
 }
 
 h2 {
+    font-family: 'Coming Soon', cursive;
+
+    font-weight: bold;
+}
+h3{
     font-family: 'Coming Soon', cursive;
 
     font-weight: bold;
@@ -97,19 +112,16 @@ a:hover {
 
 .mainindex {
     text-align: center;
-    width: 90%;
+    width: 100vw;
 }
 
 .imgindex {
     width: 90%;
     padding: 0.5rem;
-    position: relative;
-    left: 100px;
 }
 
 .sectionmain {
     font-family: 'Klee One', cursive;
-    margin-left: 100px;
     padding: 1rem;
     width: auto;
     display: flex;
@@ -130,12 +142,13 @@ ul {
 }
 
 footer {
-    width: 90vw;
+    width: 100vw;
     margin: 0 auto;
+    background-color: #184e77;
 }
 
 .containerFoot {
-    width: 90vw;
+    width: 100vw;
     gap: 20px;
     justify-content: space-between;
 }
@@ -146,6 +159,7 @@ footer {
 }
 
 .Lifoot {
+    color: white;
     display: flex;
     align-items: center;
 }
@@ -159,8 +173,7 @@ footer {
 }
 
 .maincontacto {
-    width: 90vw;
-    margin-left: 70px;
+    width: 100vw;
 }
 
 .botoncontacto {
@@ -177,34 +190,4 @@ footer {
 
 .h1servicios {
     text-align: center;
-}
-
-@media (min-width: 740px) {
-    body {
-        align-items: center;
-        justify-content: center;
-    }
-
-    footer {
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 480px) {
-    header {
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    body {
-        align-items: center;
-        justify-content: center;
-    }
-
-    footer {
-        align-items: center;
-        justify-content: center;
-    }
 }
