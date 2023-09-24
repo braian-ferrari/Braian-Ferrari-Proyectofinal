@@ -27,25 +27,6 @@ main{;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-.tabla {
-    font-family: 'Klee One', cursive;
-    border: solid #52b69a;
-    position: relative;
-    left: 500px;
-    margin-top: 4rem;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.tabla2 {
-    font-family: 'Klee One', cursive;
-    border: solid #52b69a;
-    position: relative;
-    left: 650px;
-    margin-top: 4rem;
-    text-align: center;
-    font-size: xx-large;
-}
 
 .pindex {
     font-family: 'Klee One', cursive;
@@ -165,13 +146,14 @@ footer {
 
 .h2contacto {
     text-align: center;
+    margin-top: 2rem;
 }
 
 .maincontacto {
     width: 100%;
 }
 .formcontacto{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
