@@ -168,7 +168,12 @@ footer {
 }
 
 .maincontacto {
-    width: 90vw;
+    width: 100%;
+}
+.formcontacto{
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .botoncontacto {
