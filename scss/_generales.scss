@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: calc(100vh - 100px - 300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main {
+    width: 100%;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+p {
+    font-family: 'Klee One', cursive;
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Coming Soon', cursive;
+    font-size: xx-large;
+    color: #081c15;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-family: 'Coming Soon', cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a {
+    font-family: 'Klee One', cursive;
+    text-decoration: none;
+    color: #081c15;
+    &:hover{
+        color: white;
+        background-color: #52b69a;
+        border-radius: 5px;
+    }
+}
+ul {
+    font-family: 'Klee One', cursive;
+    list-style-type: none;
+}
+
+.botoncontacto {
+    background-color: #081c15;
+    color: white;
+    border: none;
+    &:hover{
+        color: white;
+        background-color: #52b69a;
+        border-radius: 5px;
+        }
+}
+
+

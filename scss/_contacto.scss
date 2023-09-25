@@ -1,0 +1,25 @@
+.maincontacto {
+    width: 100%;
+
+    .h2contacto {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    div {
+        .bordes {
+            border-bottom: gray solid 1px;
+            max-width: 90%;
+        }
+    }
+    .formcontacto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        div{
+            .letraform{
+                font-family: 'Klee One', cursive;
+            }
+        }
+    }
+}

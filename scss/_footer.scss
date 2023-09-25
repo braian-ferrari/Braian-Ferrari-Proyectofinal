@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #184e77;
+
+    .containerFoot {
+        width: 90%;
+        gap: 20px;
+        justify-content: space-between;
+
+        div {
+            .Lifoot {
+                color: white;
+                display: flex;
+                align-items: center;
+
+                ul {
+                    li {
+                        .blanco {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .mapa {
+        display: flex;
+        justify-content: end;
+    }
+
+
+}

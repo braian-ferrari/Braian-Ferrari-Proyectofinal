@@ -1,190 +1,172 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.logoresting {
-    width: 200px;
-    margin-left: 60px;
-}
-
-header {
-    width: 90%;
-    margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    min-height: calc(100vh - 100px - 300px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  width: 100%;
+  min-height: calc(100vh - 100px - 300px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
-    ;
-    width: 100%;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-}
-
-
-.pindex {
-    font-family: 'Klee One', cursive;
-    line-height: 1.5;
-    font-size: x-large;
-    padding: 5px;
-    position: relative;
-
+  width: 100%;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 p {
-    font-family: 'Klee One', cursive;
-    font-size: x-large;
-}
-
-.blanco {
-    color: white;
+  font-family: "Klee One", cursive;
+  font-size: x-large;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    font-family: 'Coming Soon', cursive;
-    font-size: xx-large;
-    color: #081c15;
-    font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Coming Soon", cursive;
+  font-size: xx-large;
+  color: #081c15;
+  font-weight: bold;
 }
 
 h2 {
-    font-family: 'Coming Soon', cursive;
-    font-weight: bold;
-    text-align: center;
+  font-family: "Coming Soon", cursive;
+  font-weight: bold;
+  text-align: center;
 }
 
 h3 {
-    font-family: 'Coming Soon', cursive;
-    text-decoration: underline;
-    font-weight: bold;
+  font-family: "Coming Soon", cursive;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 a {
-    font-family: 'Klee One', cursive;
-    text-decoration: none;
-    color: #081c15;
+  font-family: "Klee One", cursive;
+  text-decoration: none;
+  color: #081c15;
 }
-
-.menu {
-    width: auto;
-    display: flex;
-    height: 140px;
-    margin: 0 auto;
-    justify-content: space-between;
-    height: auto;
-}
-
 a:hover {
-    color: white;
-    background-color: #52b69a;
-    border-radius: 5px;
+  color: white;
+  background-color: #52b69a;
+  border-radius: 5px;
 }
-
-
-.mainindex {
-    text-align: center;
-    width: 100%;
-}
-
-.imgindex {
-    width: 100%;
-    filter: brightness(55%);
-}
-
-.sectionmain {
-    font-family: 'Klee One', cursive;
-    padding: 1rem;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.gapindex {
-    gap: 10px;
-}
-
 
 ul {
-    font-family: 'Klee One', cursive;
-    list-style-type: none;
-}
-
-.titulos {
-    font-size: xx-large;
-    font-weight: bold;
-    color: #081c15
-}
-
-footer {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #184e77;
-}
-
-.containerFoot {
-    width: 90%;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.mapa {
-    display: flex;
-    justify-content: end;
-}
-
-.Lifoot {
-    color: white;
-    display: flex;
-    align-items: center;
-}
-
-.letraform {
-    font-family: 'Klee One', cursive;
-}
-
-.h2contacto {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.maincontacto {
-    width: 100%;
-}
-
-.formcontacto {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  font-family: "Klee One", cursive;
+  list-style-type: none;
 }
 
 .botoncontacto {
-    background-color: #081c15;
-    color: white;
-    border: none;
+  background-color: #081c15;
+  color: white;
+  border: none;
 }
-
 .botoncontacto:hover {
-    color: white;
-    background-color: #52b69a;
-    border-radius: 5px;
+  color: white;
+  background-color: #52b69a;
+  border-radius: 5px;
 }
 
-.h1servicios {
-    text-align: center;
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+header .menu {
+  width: auto;
+  display: flex;
+  height: 140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: auto;
+}
+header .menu .logoresting {
+  width: 200px;
+  margin-left: 60px;
 }
 
-.bordes {
-    border-bottom: gray solid 1px;
-    max-width: 90%;
+footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #184e77;
 }
+footer .containerFoot {
+  width: 90%;
+  gap: 20px;
+  justify-content: space-between;
+}
+footer .containerFoot div .Lifoot {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+footer .containerFoot div .Lifoot ul li .blanco {
+  color: white;
+}
+footer .mapa {
+  display: flex;
+  justify-content: end;
+}
+
+main div div div .imgindex {
+  width: 100%;
+  filter: brightness(55%);
+}
+main .pindex {
+  font-family: "Klee One", cursive;
+  line-height: 1.5;
+  font-size: x-large;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+main .pindex .bordes {
+  border-bottom: gray solid 1px;
+  max-width: 90%;
+}
+main .sectionmain {
+  font-family: "Klee One", cursive;
+  padding: 1rem;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+main .sectionmain .bordes {
+  border-bottom: gray solid 1px;
+  max-width: 90%;
+}
+
+.maincontacto {
+  width: 100%;
+}
+.maincontacto .h2contacto {
+  text-align: center;
+  margin-top: 2rem;
+}
+.maincontacto div .bordes {
+  border-bottom: gray solid 1px;
+  max-width: 90%;
+}
+.maincontacto .formcontacto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.maincontacto .formcontacto div .letraform {
+  font-family: "Klee One", cursive;
+}
+
+main div .bordes {
+  border-bottom: gray solid 1px;
+  max-width: 90%;
+}
+
+main .bordes {
+  border-bottom: gray solid 1px;
+  max-width: 90%;
+}
+
+/*# sourceMappingURL=estilo.css.map */

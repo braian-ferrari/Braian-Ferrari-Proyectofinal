@@ -1,0 +1,39 @@
+main {
+    div {
+        div {
+            div {
+                .imgindex {
+                    width: 100%;
+                    filter: brightness(55%);
+                }
+            }
+        }
+    }
+
+    .pindex {
+            font-family: 'Klee One', cursive;
+            line-height: 1.5;
+            font-size: x-large;
+            padding: 5px;
+            position: relative;
+            text-align: center;
+
+            .bordes {
+                border-bottom: gray solid 1px;
+                max-width: 90%;
+            }
+
+        }
+        .sectionmain {
+            font-family: 'Klee One', cursive;
+            padding: 1rem;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            .bordes{
+                border-bottom: gray solid 1px;
+                max-width: 90%;
+            }
+        }
+
+}
