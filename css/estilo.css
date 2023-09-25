@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+.logoresting {
+  width: 200px;
+  margin-left: 60px;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  width: auto;
+  display: flex;
+  height: 140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: auto;
+}
+
 body {
   width: 100%;
   min-height: calc(100vh - 100px - 300px);
@@ -76,6 +95,7 @@ header {
   margin: 0 auto;
 }
 header .menu {
+  color: #184e77;
   width: auto;
   display: flex;
   height: 140px;
@@ -112,8 +132,10 @@ footer .mapa {
 }
 
 main div div div .imgindex {
+  border-radius: 20px;
   width: 100%;
-  filter: brightness(55%);
+  filter: blur(0.5px);
+  box-shadow: 0 0 2px;
 }
 main .pindex {
   font-family: "Klee One", cursive;

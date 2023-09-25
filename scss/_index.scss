@@ -3,8 +3,10 @@ main {
         div {
             div {
                 .imgindex {
+                    border-radius: 20px;
                     width: 100%;
-                    filter: brightness(55%);
+                    filter: blur(0.5px);
+                    box-shadow: 0 0 2px;
                 }
             }
         }

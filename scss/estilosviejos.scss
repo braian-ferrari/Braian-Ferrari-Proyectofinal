@@ -1,95 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-.logoresting {
-    width: 200px;
-    margin-left: 60px;
-}
-
-header {
-    width: 90%;
-    margin: 0 auto;
-}
-
-body {
-    width: 100%;
-    min-height: calc(100vh - 100px - 300px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-main {
-    ;
-    width: 100%;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-}
-
-
-.pindex {
-    font-family: 'Klee One', cursive;
-    line-height: 1.5;
-    font-size: x-large;
-    padding: 5px;
-    position: relative;
-
-}
-
-p {
-    font-family: 'Klee One', cursive;
-    font-size: x-large;
-}
 
 .blanco {
     color: white;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    font-family: 'Coming Soon', cursive;
-    font-size: xx-large;
-    color: #081c15;
-    font-weight: bold;
-}
 
-h2 {
-    font-family: 'Coming Soon', cursive;
-    font-weight: bold;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Coming Soon', cursive;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-a {
-    font-family: 'Klee One', cursive;
-    text-decoration: none;
-    color: #081c15;
-}
-
-.menu {
-    width: auto;
-    display: flex;
-    height: 140px;
-    margin: 0 auto;
-    justify-content: space-between;
-    height: auto;
-}
-
-a:hover {
-    color: white;
-    background-color: #52b69a;
-    border-radius: 5px;
-}
 
 
 .mainindex {
@@ -97,28 +12,11 @@ a:hover {
     width: 100%;
 }
 
-.imgindex {
-    width: 100%;
-    filter: brightness(55%);
-}
-
-.sectionmain {
-    font-family: 'Klee One', cursive;
-    padding: 1rem;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.gapindex {
-    gap: 10px;
-}
 
 
-ul {
-    font-family: 'Klee One', cursive;
-    list-style-type: none;
-}
+
+
+
 
 .titulos {
     font-size: xx-large;
@@ -126,17 +24,9 @@ ul {
     color: #081c15
 }
 
-footer {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #184e77;
-}
 
-.containerFoot {
-    width: 90%;
-    gap: 20px;
-    justify-content: space-between;
-}
+
+
 
 .mapa {
     display: flex;
@@ -158,10 +48,6 @@ footer {
     margin-top: 2rem;
 }
 
-.maincontacto {
-    width: 100%;
-}
-
 .formcontacto {
     width: 100%;
     display: flex;
@@ -180,9 +66,6 @@ footer {
     border-radius: 5px;
 }
 
-.h1servicios {
-    text-align: center;
-}
 
 .bordes {
     border-bottom: gray solid 1px;

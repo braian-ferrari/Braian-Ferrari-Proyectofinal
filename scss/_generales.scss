@@ -3,6 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+.logoresting {
+    width: 200px;
+    margin-left: 60px;
+}
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+.menu {
+    width: auto;
+    display: flex;
+    height: 140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: auto;
+}
 body {
     width: 100%;
     min-height: calc(100vh - 100px - 300px);
@@ -12,6 +28,7 @@ body {
 
 }
 main {
+    ;
     width: 100%;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
