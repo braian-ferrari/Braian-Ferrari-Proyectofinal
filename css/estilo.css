@@ -43,8 +43,8 @@ p {
 
 h1 {
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   font-family: "Coming Soon", cursive;
   font-size: xx-large;
   color: #081c15;
@@ -68,6 +68,7 @@ a {
   text-decoration: none;
   color: #081c15;
 }
+
 a:hover {
   color: white;
   background-color: #52b69a;
@@ -84,6 +85,7 @@ ul {
   color: white;
   border: none;
 }
+
 .botoncontacto:hover {
   color: white;
   background-color: #52b69a;
@@ -94,6 +96,7 @@ header {
   width: 90%;
   margin: 0 auto;
 }
+
 header .menu {
   color: #184e77;
   width: auto;
@@ -103,6 +106,7 @@ header .menu {
   justify-content: space-between;
   height: auto;
 }
+
 header .menu .logoresting {
   width: 200px;
   margin-left: 60px;
@@ -113,19 +117,23 @@ footer {
   margin: 0 auto;
   background-color: #184e77;
 }
+
 footer .containerFoot {
   width: 90%;
   gap: 20px;
   justify-content: space-between;
 }
+
 footer .containerFoot div .Lifoot {
   color: white;
   display: flex;
   align-items: center;
 }
+
 footer .containerFoot div .Lifoot ul li .blanco {
   color: white;
 }
+
 footer .mapa {
   display: flex;
   justify-content: end;
@@ -137,6 +145,7 @@ main div div div .imgindex {
   filter: blur(0.5px);
   box-shadow: 0 0 2px;
 }
+
 main .pindex {
   font-family: "Klee One", cursive;
   line-height: 1.5;
@@ -145,17 +154,20 @@ main .pindex {
   position: relative;
   text-align: center;
 }
+
 main .pindex .bordes {
   border-bottom: gray solid 1px;
   max-width: 90%;
 }
+
 main .sectionmain {
   font-family: "Klee One", cursive;
   padding: 1rem;
   width: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: stretch;
 }
+
 main .sectionmain .bordes {
   border-bottom: gray solid 1px;
   max-width: 90%;
@@ -164,19 +176,23 @@ main .sectionmain .bordes {
 .maincontacto {
   width: 100%;
 }
+
 .maincontacto .h2contacto {
   text-align: center;
   margin-top: 2rem;
 }
+
 .maincontacto div .bordes {
   border-bottom: gray solid 1px;
   max-width: 90%;
 }
+
 .maincontacto .formcontacto {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .maincontacto .formcontacto div .letraform {
   font-family: "Klee One", cursive;
 }

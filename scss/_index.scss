@@ -13,29 +13,31 @@ main {
     }
 
     .pindex {
-            font-family: 'Klee One', cursive;
-            line-height: 1.5;
-            font-size: x-large;
-            padding: 5px;
-            position: relative;
-            text-align: center;
+        font-family: 'Klee One', cursive;
+        line-height: 1.5;
+        font-size: x-large;
+        padding: 5px;
+        position: relative;
+        text-align: center;
 
-            .bordes {
-                border-bottom: gray solid 1px;
-                max-width: 90%;
-            }
+        .bordes {
+            border-bottom: gray solid 1px;
+            max-width: 90%;
+        }
 
+    }
+
+    .sectionmain {
+        font-family: 'Klee One', cursive;
+        padding: 1rem;
+        width: auto;
+        display: flex;
+        justify-content: stretch;
+
+        .bordes {
+            border-bottom: gray solid 1px;
+            max-width: 90%;
         }
-        .sectionmain {
-            font-family: 'Klee One', cursive;
-            padding: 1rem;
-            width: auto;
-            display: flex;
-            justify-content: space-around;
-            .bordes{
-                border-bottom: gray solid 1px;
-                max-width: 90%;
-            }
-        }
+    }
 
 }
