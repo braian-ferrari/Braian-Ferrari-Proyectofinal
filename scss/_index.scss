@@ -29,10 +29,11 @@ main {
 
     .sectionmain {
         font-family: 'Klee One', cursive;
-        padding: 1rem;
+        margin: 10px;
+        margin-top: 20px;
         width: auto;
         display: flex;
-        justify-content: stretch;
+        justify-content: center;
 
         .bordes {
             border-bottom: gray solid 1px;
@@ -40,4 +41,22 @@ main {
         }
     }
 
+    .sectionmaindos {
+        font-family: 'Klee One', cursive;
+        margin-top: 10px;
+        width: auto;
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .sectionmaintres {
+        font-family: 'Klee One', cursive;
+        margin-top: 10px;
+        width: auto;
+        display: flex;
+        justify-content: end;
+    }
+
 }
+

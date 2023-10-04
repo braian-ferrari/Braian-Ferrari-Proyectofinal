@@ -2,17 +2,27 @@ footer {
     width: 100%;
     margin: 0 auto;
     background-color: #184e77;
+    height: auto;
 
     .containerFoot {
         width: 90%;
         gap: 20px;
-        justify-content: space-between;
+        margin: 20px;
+        display: flex;
+        justify-content: end;
+
+        div{
+            .florfoot {
+                width: 180px;
+            }
+        }
 
         div {
             .Lifoot {
                 color: white;
                 display: flex;
                 align-items: center;
+                font-size: 18px;
 
                 ul {
                     li {
@@ -23,11 +33,6 @@ footer {
                 }
             }
         }
-    }
-
-    .mapa {
-        display: flex;
-        justify-content: end;
     }
 
 

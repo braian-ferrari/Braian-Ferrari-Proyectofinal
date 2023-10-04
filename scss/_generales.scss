@@ -26,15 +26,10 @@ header {
 body {
     width: 100%;
     min-height: calc(100vh - 100px - 300px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
 }
 
 main {
     width: 100%;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 p {
@@ -91,4 +86,11 @@ ul {
         background-color: #52b69a;
         border-radius: 5px;
     }
+}
+.titulosflor{
+    display: flex;
+    justify-content: center;
+}
+.florlogo {
+    width: 100px;
 }
