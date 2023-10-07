@@ -121,7 +121,6 @@ footer {
 }
 footer .containerFoot {
   width: 90%;
-  gap: 20px;
   margin: 20px;
   display: flex;
   justify-content: center;
@@ -217,11 +216,17 @@ main div div div .brillo {
   filter: brightness(80%);
 }
 
-main div .bordes {
+main .mainmaquinas {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .mainmaquinas .bordes {
   border-bottom: gray solid 1px;
   max-width: 90%;
 }
-main div .bordes div .maquinas {
+main .mainmaquinas .bordes div .maquinas {
   display: flex;
   justify-content: center;
 }
