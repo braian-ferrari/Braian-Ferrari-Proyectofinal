@@ -118,7 +118,6 @@ footer {
   width: 100%;
   margin: 0 auto;
   background-color: #184e77;
-  height: auto;
 }
 footer .containerFoot {
   width: 90%;
@@ -128,7 +127,7 @@ footer .containerFoot {
   justify-content: center;
 }
 footer .containerFoot div .florfoot {
-  width: 180px;
+  width: 150px;
 }
 footer .containerFoot div .Lifoot {
   color: white;
