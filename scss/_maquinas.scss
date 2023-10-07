@@ -3,6 +3,12 @@ main {
         .bordes {
             border-bottom: gray solid 1px;
             max-width: 90%;
+            div{
+                .maquinas{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
         }
     }
 

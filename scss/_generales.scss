@@ -33,8 +33,9 @@ main {
 }
 
 p {
-    font-family: 'Klee One', cursive;
+    font-family: $texto;
     font-size: x-large;
+    color: $Colortexto;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
     margin-bottom: 1rem;
     font-family: 'Coming Soon', cursive;
     font-size: xx-large;
-    color: #081c15;
+    color: $Colortitulos;
     font-weight: bold;
 }
 
@@ -51,12 +52,14 @@ h2 {
     font-family: 'Coming Soon', cursive;
     font-weight: bold;
     text-align: center;
+    color: $Colortitulos;
 }
 
 h3 {
     font-family: 'Coming Soon', cursive;
     text-decoration: underline;
     font-weight: bold;
+    color: $Colortitulos;
 }
 
 a {

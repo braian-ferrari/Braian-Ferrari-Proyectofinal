@@ -35,6 +35,7 @@ main {
 p {
   font-family: "Klee One", cursive;
   font-size: x-large;
+  color: gray;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
   margin-bottom: 1rem;
   font-family: "Coming Soon", cursive;
   font-size: xx-large;
-  color: #081c15;
+  color: #008589;
   font-weight: bold;
 }
 
@@ -51,12 +52,14 @@ h2 {
   font-family: "Coming Soon", cursive;
   font-weight: bold;
   text-align: center;
+  color: #008589;
 }
 
 h3 {
   font-family: "Coming Soon", cursive;
   text-decoration: underline;
   font-weight: bold;
+  color: #008589;
 }
 
 a {
@@ -96,8 +99,7 @@ ul {
 }
 
 header {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
 }
 header .menu {
   color: #184e77;
@@ -110,7 +112,6 @@ header .menu {
 }
 header .menu .logoresting {
   width: 200px;
-  margin-left: 60px;
 }
 
 footer {
@@ -124,7 +125,7 @@ footer .containerFoot {
   gap: 20px;
   margin: 20px;
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 footer .containerFoot div .florfoot {
   width: 180px;
@@ -160,12 +161,20 @@ main .pindex .bordes {
 main .sectionmain {
   font-family: "Klee One", cursive;
   margin: 10px;
-  margin-top: 20px;
   width: auto;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 main .sectionmain .bordes {
+  border-bottom: gray solid 1px;
+  max-width: 90%;
+}
+main .sectionmain div .row2 {
+  display: flex;
+  justify-content: end;
+}
+main .bordes {
   border-bottom: gray solid 1px;
   max-width: 90%;
 }
@@ -174,14 +183,14 @@ main .sectionmaindos {
   margin-top: 10px;
   width: auto;
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 main .sectionmaintres {
   font-family: "Klee One", cursive;
   margin-top: 10px;
   width: auto;
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 .maincontacto {
@@ -204,9 +213,18 @@ main .sectionmaintres {
   font-family: "Klee One", cursive;
 }
 
+main div div div .brillo {
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
 main div .bordes {
   border-bottom: gray solid 1px;
   max-width: 90%;
+}
+main div .bordes div .maquinas {
+  display: flex;
+  justify-content: center;
 }
 
 main .bordes {
